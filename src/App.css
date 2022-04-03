@@ -1,38 +1,141 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  background-color:#9900ff ;
+}
+.navbar1{
+  padding: 20px;
+  background-color: black;
+  
+  
+ 
+}
+.navbar2 {
+ list-style-type: none;
+ display: flex;
+  justify-content:center;
+}
+.navbar3{
+  text-decoration: none;
+  list-style: none;
+  padding-right: 40px;
+  color: aliceblue;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar4{
+  text-decoration: none;
+  list-style: none;
+  padding-left: 40px;
+  color: aliceblue;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar5{
+  text-decoration: none;
+  list-style: none;
+  padding-right: 60px;
+  color: aliceblue;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.signup{
+  padding-top: 50px;
+  height: auto;
+  width: auto;
   text-align: center;
+  padding-left: 500px;
+  padding-right: 500px;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.signup1{
+  
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 2px black;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signup2{
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  padding-left: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.button{
+  height: 30px;
+  width: 250px;
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.login{
+  padding-top: 50px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding-left: 500px;
+  padding-right: 500px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login1{
+  
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 2px black;
+}
+.login2{
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.login3{
+  height: 30px;
+  width: 250px;
+  background-color: black;
+  color: white;
+}
+.user{
+  padding-top: 50px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding-left: 500px;
+  padding-right: 500px;
+  
+}
+.user1{
+  
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 1px 2px black;
+}
+.home{
+  padding-top: 50px;
+  height: auto;
+  width: auto;
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.home1{
+  
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  box-shadow: 1px 1px 1px 2px black;
 }
